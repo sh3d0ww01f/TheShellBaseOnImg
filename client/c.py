@@ -79,8 +79,8 @@ def connectHost(ht,pt):
 
 
 def main():
-    host='hwz007.e2.luyouxia.net'
-    port='26508'
+    host='服务器端ip'#服务器端ip
+    port='服务器端port' #服务器端port
     connectHost(host,port)              #连接到控制端
 
 
